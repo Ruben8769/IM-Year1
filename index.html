@@ -9,13 +9,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
-    <h1 style="font-size: 250%;">My other websites <i class="fa-solid fa-magnifying-glass"></i><br><br>
-    <img src="img/Bear.png" alt="A cutte little bear" width="20%">
-    <h2>Links:</h2>
-    <!-- For every project, add a new index.html link -->
-    <a href="Norske-Rovdyr/index.html">Norske Rovdyr</a><br>
-    <a href="Profile-Site/index.html">Profile Site</a><br>
-    </div>
+<div class="container">
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#websites">WEBSITES</a>
+        <a href="#social">SOCIAL</a>
+    </nav>
+    <!-- Home section -->
+    <section id="home">
+        <h1>My websites</h1>
+        <img style="margin-top: -50px; box-shadow: 5px 5px rgba(0, 0, 0, );" width="25%" src="img/BEAR.png" alt="A cute little bear">
+    </section>
+    <!-- About section  -->
+    <section id="about">
+        <h1>About website</h1>
+        <div class="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt excepturi totam pariatur reprehenderit quo quidem reiciendis, tempora quam expedita!</p>
+        </div>
+    </section>
+    <section id="websites">
+        <h1>Links to other websites</h1>
+        <div class="text-box link-list">
+            <!-- Add more links for other websites -->
+            <li><a href="Norske-Rovdyr/index.html">Norske rovdyr</a></li><br>
+            <li><a href="Profile-Site/index.html">Profile Site</a></li>
+        </div>
+    </section>
+    <section id="social">
+        <div class="social-icons">
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+</div>
 </body>
 </html>
