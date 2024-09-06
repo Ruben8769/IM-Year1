@@ -8,7 +8,6 @@
     --primary-color: rgb(39, 37, 37);
     --secondary-color: rgba(39, 37, 37, 0.7);
     --decoration-color: red;
-    --twitter-color: #1DA1F2;
 }
 
 /* Styles */
@@ -52,6 +51,12 @@ h2{
     font-size: 40px;
 }
 
+li{
+    color: var(--secondary-color);
+    font-family: Nunito, sans-serif;
+    font-size: 120%;
+}
+
 .text-box{
     font-size: 22px;
     width: 50%;
@@ -74,7 +79,7 @@ nav{
     position: fixed;
     font-family: SUSE, sans-serif;
     font-size: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding: 25px;
     width: 100vw;
     background: rgb(255 255 255 / 30%);
@@ -93,7 +98,7 @@ nav{
 
 a{
     margin-right: 25px;
-    color: var(--twitter-color);
+    color: var(--secondary-color);
     text-decoration: none;
     border-bottom: 3px solid transparent;
     font-weight: bold;
